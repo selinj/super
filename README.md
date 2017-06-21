@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/selinj/super.svg?branch=master)](https://travis-ci.org/selinj/super)
+[![Coverage Status](https://coveralls.io/repos/github/selinj/super/badge.svg?branch=master)](https://coveralls.io/github/selinj/super?branch=master)
 
 # super
 :tada: An R package implementing supervised scores for cluster analysis results
