@@ -1,0 +1,17 @@
+Package: super
+Title: Supervised scores for cluster analysis results
+Version: 0.0.0.9000
+Authors@R: person("Selin", "Jessa", email = "selin.jessa@mail.mcgill.ca", role = c("aut", "cre"))
+Description: Implementations of several supervised metrics and scores for
+    cluster analysis (i.e. they compare the cluster assignments with ground
+    truth labels). These scores are agnostic to the clustering method and
+    to the structure of the data: each function takes in a contingency table,
+    or a vector of class labels and a vector of cluster assignments, and
+    returns a score. A handy wrapper function, "super", returns a tidy one-row
+    dataframe with all implemented stats for a cluster analysis result.
+Depends: R (>= 3.4.0)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat
+RoxygenNote: 6.0.1
